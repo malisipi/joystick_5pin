@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="640px" height="480px" viewBox="0 0 640 480" enable-background="new 0 0 640 480" xml:space="preserve">
+<rect fill="#FFFFFF" width="640" height="480"/>
+<g>
+	<g>
+		<rect x="491.5" y="47.5" fill="#007FFF" stroke="#000000" stroke-miterlimit="10" width="125" height="100"/>
+		<circle fill="#191919" stroke="#000000" stroke-miterlimit="10" cx="566.355" cy="97.457" r="37.5"/>
+		<circle fill="#373737" stroke="#000000" stroke-miterlimit="10" cx="566.355" cy="97.457" r="25"/>
+		<g>
+			<rect x="479.5" y="72.5" fill="#7F7F7F" stroke="#000000" stroke-miterlimit="10" width="20" height="10"/>
+			<text transform="matrix(1 0 0 1 504.1611 82.5)" font-family="'WineTahoma'" font-size="12">GND</text>
+			<rect x="479.5" y="82.5" fill="#7F7F7F" stroke="#000000" stroke-miterlimit="10" width="20" height="10"/>
+			<text transform="matrix(1 0 0 1 504.1611 92.5)" font-family="'WineTahoma'" font-size="12">+5V</text>
+			<rect x="479.5" y="92.5" fill="#7F7F7F" stroke="#000000" stroke-miterlimit="10" width="20" height="10"/>
+			<text transform="matrix(1 0 0 1 504.1611 102.5)" font-family="'WineTahoma'" font-size="12">VRX</text>
+			<rect x="479.5" y="102.5" fill="#7F7F7F" stroke="#000000" stroke-miterlimit="10" width="20" height="10"/>
+			<text transform="matrix(1 0 0 1 504.1611 112.5)" font-family="'WineTahoma'" font-size="12">VRY</text>
+			<rect x="479.5" y="112.5" fill="#7F7F7F" stroke="#000000" stroke-miterlimit="10" width="20" height="10"/>
+			<text transform="matrix(1 0 0 1 504.1611 122.5)" font-family="'WineTahoma'" font-size="12">SW</text>
+		</g>
+	</g>
+	<g>
+		<path fill="#B4DC3F" stroke="#000000" stroke-miterlimit="10" d="M107.5,124.5c0,5.523-4.477,10-10,10l0,0
+			c-5.523,0-10-4.477-10-10v-35c0-5.523,4.477-10,10-10l0,0c5.523,0,10,4.477,10,10V124.5z"/>
+		<rect x="87.5" y="89.5" stroke="#000000" stroke-miterlimit="10" width="20" height="5"/>
+		<rect x="87.5" y="120.5" stroke="#000000" stroke-miterlimit="10" width="20" height="5"/>
+		<rect x="87.5" y="105.5" stroke="#000000" stroke-miterlimit="10" width="20" height="5"/>
+	</g>
+	<rect x="320.5" y="189.5" fill="#007FFF" stroke="#000000" stroke-miterlimit="10" width="296" height="270"/>
+	<g>
+		<rect x="312.5" y="208.5" fill="#7F7F7F" stroke="#000000" stroke-miterlimit="10" width="20" height="10"/>
+		<text transform="matrix(1 0 0 1 337.1611 218.5)" font-family="'WineTahoma'" font-size="12">GND</text>
+		<rect x="312.5" y="218.5" fill="#7F7F7F" stroke="#000000" stroke-miterlimit="10" width="20" height="10"/>
+		<text transform="matrix(1 0 0 1 337.1611 228.5)" font-family="'WineTahoma'" font-size="12">+5V</text>
+	</g>
+	<g>
+		<rect x="312.5" y="254.5" fill="#7F7F7F" stroke="#000000" stroke-miterlimit="10" width="20" height="10"/>
+		<text transform="matrix(1 0 0 1 337.1611 264.5)" font-family="'WineTahoma'" font-size="12">A1</text>
+		<rect x="312.5" y="264.5" fill="#7F7F7F" stroke="#000000" stroke-miterlimit="10" width="20" height="10"/>
+		<text transform="matrix(1 0 0 1 337.1611 274.5)" font-family="'WineTahoma'" font-size="12">A0</text>
+	</g>
+	<g>
+		<rect x="312.5" y="300.5" fill="#7F7F7F" stroke="#000000" stroke-miterlimit="10" width="20" height="10"/>
+		<text transform="matrix(1 0 0 1 337.1611 310.5)" font-family="'WineTahoma'" font-size="12">2</text>
+	</g>
+	<polyline fill="none" stroke="#00FF00" stroke-width="4" stroke-miterlimit="10" points="479,88 244,88 244,18 16,18 16,224 
+		312,224 	"/>
+	<line fill="none" stroke="#00FF00" stroke-width="4" stroke-miterlimit="10" x1="97" y1="80" x2="97" y2="18"/>
+	<polyline fill="none" stroke="#00FFFF" stroke-width="4" stroke-miterlimit="10" points="479,78 193,78 193,214 312,214 	"/>
+	<polyline fill="none" stroke="#0000FF" stroke-width="4" stroke-miterlimit="10" points="479,97 205,97 205,270 312,270 	"/>
+	<polyline fill="none" stroke="#FF00FF" stroke-width="4" stroke-miterlimit="10" points="479,108 222,108 222,260 312,260 	"/>
+	<polyline fill="none" stroke="#FFFF00" stroke-width="4" stroke-miterlimit="10" points="479,118 159,118 159,306 312,306 	"/>
+	<polyline fill="none" stroke="#FFFF00" stroke-width="4" stroke-miterlimit="10" points="97,135 97,167 159,167 	"/>
+	<text transform="matrix(1 0 0 1 468.5 443.6699)" font-family="'WineTahoma'" font-size="24">Arduino UNO</text>
+</g>
+</svg>
