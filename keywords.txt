@@ -1,0 +1,23 @@
+##########################################
+# Syntax Coloring Map For Joystick 5-Pin
+###########################################
+
+###########################################
+# Datatypes (KEYWORD1)
+###########################################
+
+Joystick            KEYWORD1
+
+###########################################
+# Methods and Functions (KEYWORD2)
+###########################################
+
+get_x_axis          KEYWORD2
+get_y_axis          KEYWORD2
+get_button_state    KEYWORD2
+button_loop         KEYWORD2
+rx_pin              KEYWORD2
+ry_pin              KEYWORD2
+button_pin          KEYWORD2
+dead_zone           KEYWORD2
+prev_state          KEYWORD2
