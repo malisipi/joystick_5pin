@@ -42,3 +42,5 @@ void Joystick::directional_loop(void (*up)(void), void (*right)(void), void (*do
 ## License
 
 > This library licensed by MIT-License.
+
+* `assets/cover.png` licensed by CC BY-SA 4.0. Authors: malisipi & craiyon.com
