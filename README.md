@@ -19,6 +19,16 @@ bool Joystick::get_button_state(void);
 
 // Handle button events
 void Joystick::button_loop(void (*press)(void), void (*release)(void));
+
+// Handle axis events
+void axis_loop(void (*x_axis)(int), void (*y_axis)(int)); // new_events_only=false
+// or
+void axis_loop(void (*x_axis)(int), void (*y_axis)(int), bool new_events_only);
+
+// Handle directional events
+void directional_loop(void (*up)(void), void (*right)(void), void (*down)(void), void (*left)(void)); // new_events_only=false
+// or
+void directional_loop(void (*up)(void), void (*right)(void), void (*down)(void), void (*left)(void), bool new_events_only);
 ```
 
 ## Wiring Diagram
