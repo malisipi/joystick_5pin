@@ -16,6 +16,8 @@ get_x_axis          KEYWORD2
 get_y_axis          KEYWORD2
 get_button_state    KEYWORD2
 button_loop         KEYWORD2
+axis_loop           KEYWORD2
+directional_loop    KEYWORD2
 rx_pin              KEYWORD2
 ry_pin              KEYWORD2
 button_pin          KEYWORD2

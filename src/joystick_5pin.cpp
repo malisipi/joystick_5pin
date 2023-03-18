@@ -42,7 +42,7 @@ bool Joystick::get_button_state(void){
 }
 
 void Joystick::button_loop(void (*press)(void), void (*release)(void)){
-  bool new_state = get_button_state();
+  const bool new_state = get_button_state();
   if(new_state == prev_state) return;
 
   if(new_state > prev_state) { // if button was pressed
@@ -52,6 +52,48 @@ void Joystick::button_loop(void (*press)(void), void (*release)(void)){
     prev_state = false;
     release();
   }
+}
+
+void Joystick::axis_loop(void (*x_axis)(int), void (*y_axis)(int), bool new_events_only){
+  const int new_axis [2] = {get_x_axis(), get_y_axis()};
+  if(new_events_only || new_axis[0]!=prev_axis[0]){
+    x_axis(new_axis[0]);
+  }
+  if(new_events_only || new_axis[1]!=prev_axis[1]){
+    y_axis(new_axis[1]);
+  }
+  prev_axis[0] = new_axis[0];
+  prev_axis[1] = new_axis[1];
+}
+
+void Joystick::axis_loop(void (*x_axis)(int), void (*y_axis)(int)){
+  axis_loop(x_axis, y_axis, false);
+}
+
+void Joystick::directional_loop(void (*up)(void), void (*right)(void), void (*down)(void), void (*left)(void), bool new_events_only){
+  const int new_axis [2] = {get_x_axis(), get_y_axis()};
+  if(!new_events_only || new_axis[0]!=prev_axis[0]){
+    if(new_axis[0]>823 && (!new_events_only || prev_axis[0]<=823)){
+      up();
+    }
+    if(new_axis[0]<200 && (!new_events_only || prev_axis[0]>=200)){
+      down();
+    }
+  }
+  if(!new_events_only || new_axis[1]!=prev_axis[1]){
+    if(new_axis[1]>823 && (!new_events_only ||  prev_axis[1]<=823)){
+      right();
+    }
+    if(new_axis[1]<200 && (!new_events_only || prev_axis[1]>=200)){
+      left();
+    }
+  }
+  prev_axis[0] = new_axis[0];
+  prev_axis[1] = new_axis[1];
+}
+
+void Joystick::directional_loop(void (*up)(void), void (*right)(void), void (*down)(void), void (*left)(void)){
+  directional_loop(up, right, down, left, false);
 }
 
 #endif

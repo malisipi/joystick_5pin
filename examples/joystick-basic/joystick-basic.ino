@@ -27,5 +27,5 @@ void loop() {
   Serial.print(joystick.get_x_axis());
   Serial.print(", button: "); 
   Serial.println(joystick.get_button_state());
-  delay(200);
+  delay(20);
 }
